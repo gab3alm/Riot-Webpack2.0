@@ -38,7 +38,8 @@ module.exports = function(env){
       parts.extractSASS(),
       parts.loadTAG(),
       parts.exposeJQUERY(),
-      parts.babel()
+      parts.babel(),
+      parts.loadFONTS()
       );
   }
 
@@ -52,6 +53,7 @@ module.exports = function(env){
   parts.loadSASS(),
   parts.loadTAG(),
   parts.exposeJQUERY(),
+  parts.loadFONTS(),
   parts.devServer({
     //customize host/port here if needed
     host: process.env.HOST,
