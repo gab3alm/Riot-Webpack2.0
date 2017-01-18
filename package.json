@@ -1,0 +1,39 @@
+{
+  "name": "Riot-Webpack Boilerplate",
+  "version": "1.0.0",
+  "description": "A quick project boilerplate for Riot, Webpack, & Materialize CSS",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --env production",
+    "dev": "./node_modules/.bin/webpack-dev-server --env development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "css-loader": "^0.26.1",
+    "expose-loader": "^0.7.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.26.0",
+    "node-sass": "^4.3.0",
+    "purifycss-webpack-plugin": "^2.0.3",
+    "riot-hot-reload": "0.0.2",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "tag-loader": "^0.3.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0",
+    "webpack-merge": "^2.4.0"
+  },
+  "dependencies": {
+    "hammerjs": "^2.0.8",
+    "materialize-css": "^0.97.8",
+    "riot": "^3.0.7",
+    "riot-route": "^3.0.2"
+  }
+}
