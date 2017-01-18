@@ -1,5 +1,5 @@
 {
-  "name": "Riot-Webpack Boilerplate",
+  "name": "Riot-Webpack-Boilerplate",
   "version": "1.0.0",
   "description": "A quick project boilerplate for Riot, Webpack, & Materialize CSS",
   "main": "index.js",
